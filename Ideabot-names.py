@@ -1,5 +1,4 @@
 import time
-import tokenStore
 import os
 from slackclient import SlackClient
 
