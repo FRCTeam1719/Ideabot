@@ -41,7 +41,7 @@ def processMessage(i):
             index = 6
         else:
             index = 5
-        message = resolveUser(['user']) + "says: " + i['text'][index:]
+        message = resolveUser(i['user']) + " says: " + i['text'][index:]
         postMessage(message, '#ideas')
     else:
         unknown = "Sorry! I don't understand! Try 'help' for help!"
